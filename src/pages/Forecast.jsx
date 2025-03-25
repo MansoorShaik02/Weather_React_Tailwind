@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-const Api_key = "6d214bb44d688d65ff46eb9d3ee8a6df";
+const Api_key = import.meta.env.VITE_SECRET_KEY;
 
 const WeatherTypes = [
   {

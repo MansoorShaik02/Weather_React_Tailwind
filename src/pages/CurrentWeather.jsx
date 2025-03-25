@@ -1,8 +1,6 @@
 // export default App;
 import { useRef, useState } from "react";
 
-// const Api_key = "6d214bb44d688d65ff46eb9d3ee8a6df";
-// console.log(import.meta.env);
 const Api_key = import.meta.env.VITE_SECRET_KEY;
 
 const App = () => {
